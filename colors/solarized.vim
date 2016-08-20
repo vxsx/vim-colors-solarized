@@ -137,12 +137,12 @@
 " Terminals that support italics
 let s:terms_italic=[
             \"rxvt",
+            \"iTerm.app",
             \"gnome-terminal"
             \]
 " For reference only, terminals are known to be incomptible.
 " Terminals that are in neither list need to be tested.
 let s:terms_noitalic=[
-            \"iTerm.app",
             \"Apple_Terminal"
             \]
 if has("gui_running")
